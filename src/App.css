@@ -1,0 +1,766 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=DM+Serif+Text:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Hentaigana:wght@200..900&family=Playwrite+NG+Modern:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Emilys+Candy&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.mulish {
+  font-family: "Mulish", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* استبدل 400 بالقيمة التي تحتاجها */
+  font-style: normal;
+}
+
+/* تخصيص شريط التمرير */
+::-webkit-scrollbar {
+  width: 8px; /* عرض شريط التمرير */
+  height: 8px; /* ارتفاع شريط التمرير */
+}
+
+/* تخصيص الجزء الذي يتم سحبه (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: black; /* لون الجزء الذي يتم سحبه */
+}
+
+/* تخصيص المسافة حول الجزء الذي يتم سحبه */
+::-webkit-scrollbar-track {
+  background-color: #3d3d3d; /* لون المسار الخلفي */
+}
+
+
+
+
+/* CSS */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color:black;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid black;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+/* CSS */
+.button-18 {
+  margin-right: 5px;
+  align-items: center;
+  background-color: #ff8800;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #ff9900;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.ourmenu button {
+  background: #ffffff;
+  width: 130px;
+  border: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    
+}
+
+body {
+  background: #fff !important;
+}
+/* تحسين التصميم العام */
+body {
+  background: linear-gradient(135deg, #ff8c00, #ff5e62);
+  font-family: "Poppins", sans-serif;
+}
+
+/* ضبط مكان النموذج وإضافة ظل */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-signin {
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* تحسين الحقول */
+.form-control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+/* تحسين زر تسجيل الدخول */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #ff6600;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #e65c00;
+  transform: scale(1.05);
+}
+
+/* تأثير عند تمرير الفأرة على الحقول */
+.form-control:focus {
+  border-color: #ff6600;
+  box-shadow: 0px 0px 8px rgba(255, 102, 0, 0.5);
+}
+
+/* تحسين الرابط */
+h5 a {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h5 a:hover {
+  text-decoration: underline;
+}
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-container input {
+  width: 100%;
+  padding-right: 45px; /* لترك مساحة للأيقونة */
+}
+
+.eye-icon {
+  position: absolute;
+  right:0; /* يمكنك تغيير هذه القيمة لتحريك العين أفقيًا */
+  top: 50%;
+  transform: translateY(-50%); /* لتوسيط الأيقونة عموديًا */
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.3s;
+}
+.checkbox{
+  display: flex;
+}
+.form-signin-heading{
+  margin-bottom: 30px;
+}
+
+.navv {
+  display: flex;
+  width:100vc;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding:0px 40px ;
+  background:url(https://foodu-react.vercel.app/assets/img/shape/2.jpg);
+}
+.navvv  {
+  display: flex;
+  align-items: center;
+}
+.bground{
+  background-image: url(https://foodu-react.vercel.app/assets/img/shape/2.jpg);
+
+}
+.food{
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-top: 30px;
+margin-bottom: 30px;
+}
+.foods{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 90px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* تجعل الصورة ثابتة أثناء التمرير */
+}
+.foods p {
+  color: #fff;
+}
+
+.ourmenu{
+  background-image: url(https://foodu-react.vercel.app/assets/img/shape/2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* تجعل الصورة ثابتة أثناء التمرير */
+}
+.foode{
+  text-align: center;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 60px;
+
+}
+
+.food img{
+  width: 110px;
+  height: 14px;
+  margin: 10px;
+}
+
+.foode img{
+  width: 110px;
+  height: 14px;
+  margin: 10px;
+}
+
+
+.mg{
+  width: 110px;
+  height: 14px;
+  margin: 20px;
+  
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+.visitedd a:visited {
+  color:rgb(0, 0, 0)
+}
+.dropdown-menu a:visited {
+  color:none !important;
+}
+.wrapper a:hover {
+  text-decoration: none; /* يبقى بدون خط حتى عند الـ hover */
+  color: #e65c00; /* تغيير اللون عند المرور عليه، اختياري */
+}
+
+a:hover{
+  color: #ddd;
+  text-decoration: none; /* يبقى بدون خط حتى عند الـ hover */
+}
+
+
+
+.bokor-regular {
+  font-family: "Kanit", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size:100px;
+}
+.bokor-regularr {
+  font-family: "Kanit", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size:100px;
+}
+.bokor-regularrr {
+  font-family: "Kanit", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size:80px;
+}
+.mom{
+  display: flex;
+  background:#fff;
+  margin-left: 56px;
+}
+
+.mom img {
+  width: 570px;
+  filter: drop-shadow(0px 0px 48px rgba(0, 0, 0, 0.75));
+  margin: 90px;
+}
+
+.text {
+  margin: 100px 0px;
+}
+
+.secde {
+  background-image: url(https://foodu-react.vercel.app/assets/img/shape/4.jpg);
+  height: 900px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carde{
+  background: #ebe9e6;
+  border-radius: 40px;
+  margin: 5px;
+  width: 320px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -16px;
+  align-items: center;
+  padding: 60px 37px;
+}
+.carde img{
+  margin-bottom: 30px;
+  width: 100px;
+}
+.cardee img {
+  width: 110px;
+  margin: 30px 68px 0px 68px;
+}
+.cardee{
+  background: #ebe9e6;
+  border-radius: 40px;
+  margin: 5px;
+  width: 320px;
+  height: 443px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -16px;
+  align-items: center;
+  padding: 90px 37px;
+}
+.texte4 h4 {
+  color: black;
+  font-family: var(--font-heading);
+}
+.texte4 p {
+  color: #666666;
+  font-family: var(--font-heading);
+  text-align: center;
+}
+
+
+.news img{
+  border-radius: 30px;
+  width: 411px;
+}
+.modalinput input{
+  margin:0 !important;
+}
+
+svg{
+  width: 36px;
+  margin-right: 8px;
+}
+form h4 {
+  color: #09223b;
+  margin: 0;
+  margin-top: 8px;
+}
+form input{
+  margin-top: 10px;
+  
+}
+label {
+  margin-left: 20px;
+}
+
+.lil li {
+  color: black;
+}
+
+.lil p {
+  color: black;
+}
+
+.lil img {
+  width: 600px;
+  margin-left: 100px;
+  border-radius: 30px;
+}
+
+
+.col-sm-4{
+  padding:0;
+}
+
+
+.row{
+  margin: 0;
+  /* margin-bottom: 200px; */
+}
+
+.link{
+  text-decoration: none;
+}
+Link{
+  text-decoration: none !important;
+}
+
+/* food-card */
+/* food-card */
+.food-card {
+  height: 500px;
+  border-radius: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image */
+.food-card img {
+  width: 100%;
+  height: 233px;
+  object-fit: cover;
+  border-radius: 40px 40px 0 0;
+  border-bottom: 3px solid red;
+}
+
+/* Description */
+.food-description {
+  height: 280px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.food-title {
+  color: #333;
+  font-weight: 800;
+  font-size: 20px;
+  width: 90%;
+}
+
+.food-desc {
+  color: #555555!important;
+  font-weight: 300;
+  font-size:19.5px  ;
+  width: 90%;
+}
+
+.food-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  height: 264px;
+}
+
+.btn-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container Button{
+  width: 80%;
+}
+
+
+
+.food-button {
+  background-color: transparent;
+  color: #dc3545;
+  border: 0.5px solid #dc3545;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 24px;
+  font-weight: 7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-button:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+/* DropdownMenu */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  display: flex;
+
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 160px;
+  left: -75px; /* يجعل القائمة تظهر إلى اليسار */
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+.logoutt{
+  color: red !important;
+}
+
+
+
+
+.favorites-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.favorite-item {
+  background: #f4f4f4;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.favorite-image {
+  width: 200px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.favorite-title {
+  text-align: center;
+}
+
+.favorite-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button,
+.show-more-button {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+}
+
+.show-more-button {
+  background-color: red;
+}
+
+
+
+
+/* //modal */
+
+.recipes-container {
+  padding: 20px;
+}
+
+.recipes-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.recipes-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipes-table th,
+.recipes-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.recipes-table th {
+  background-color: #f8f8f8;
+}
+
+.recipe-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+
+
+
+
+
+
+
+/* css Animation */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; /* يستمر في القفز بشكل متكرر */
+}
+
+

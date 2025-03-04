@@ -1,0 +1,27 @@
+    /* ✅ في الصفحة الرئيسية فقط */
+    .navbar.home-padding {
+        padding:20px 110px;
+        position:absolute;
+    }
+    
+    /* ✅ في باقي الصفحات بدون padding */
+    .navbar.no-padding {
+        padding: 0 0;
+        /* background:url(https://foodu-react.vercel.app/assets/img/shape/2.jpg); */
+        background: #000;
+        border-radius: 0px;
+        color: #fff;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+    .size-6.no-padding{
+        color: #fff;
+    }
+
+    .homenav{
+        background: #fff;
+        border-radius: 20px;
+    }
+
+    .foody img{  filter: drop-shadow(0px 0px 48px rgba(255, 255, 255, 0.75));
+    }
