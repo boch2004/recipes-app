@@ -17,7 +17,6 @@ import Info from "./components/profil/Info";
 import ProfileSection from "./components/profil/ProfileSection";
 import Navbar2 from "./components/Navbar2";
 import { getfavoris } from "./JS/userSlice/favorisslice";
-import "flowbite";
 import Favorites from "./components/profil/Favorites";
 import Myrecipes from "./components/profil/Myrecipes";
 import "aos/dist/aos.css"; // استيراد CSS الخاص بالمكتبة
